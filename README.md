@@ -27,7 +27,7 @@ int main(){
     MyItem *item=malloc(sizeof(MyItem));
     item->next=NULL;
     
-    List_appendItem(&myStruct.list,item);
+    List_appendItem(&myStruct->list,item);
     
     free(myStruct);
     free(item);
